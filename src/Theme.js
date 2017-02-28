@@ -9,7 +9,7 @@ const THEME_STYLE_CACHE = '@@shoutem.theme/themeCachedStyle';
 
 let defaultTheme;
 
-const resolveStyle = (style, baseStyle) => normalizeStyle(resolveIncludes(style, baseStyle));
+const resolveStyle = (style, baseStyle) => resolveIncludes(style, baseStyle);
 
 /**
  * The theme defines the application style, and provides methods to
