@@ -5,7 +5,8 @@
   "description": "Style your components in one place.",
   "dependencies": {
     "hoist-non-react-statics": "^1.0.5",
-    "lodash": "^4.10.1"
+    "lodash": "^4.10.1",
+    "prop-types": "^15.5.10"
   },
   "peerDependencies": {
     "react": "^15.1.0",
@@ -60,5 +61,4 @@
       "name": "zrumenjak"
     }
   ]
-
 }
